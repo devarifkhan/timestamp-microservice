@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    background-color: #FF884B;
+}
