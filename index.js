@@ -24,7 +24,7 @@ router.get("/api/", function (req, res) {
 });
 
 
-router.get("/api/:date", (req,res) => {
+router.get("/api/:date?", (req,res) => {
   let { date } = req.params;
   let unixDate = "";
   let time = "";
